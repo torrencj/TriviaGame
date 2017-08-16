@@ -1,0 +1,23 @@
+
+main {
+  margin: 0 auto;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#q-start {
+  display:block;
+}
+
+#q-1 {
+  display: none;
+}
+
+.answer-wrapper {
+  display: none;
+  background-color: green;
+  /*display: grid;*/
+  grid-template-columns: repeat(4, 1fr);
+  height: 50px;
+}
